@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background-color: #e5f2fd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+
+#search_card_view {
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 470px;
+    color: black;
+    margin: 20px auto 0;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_input {
+    border: 0;
+    outline: 0;
+    background: #e5f2fd;
+    color: #555;
+    padding: 10px 10px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.search_icon {
+    border: 0;
+    outline: 0;
+    background: #e5f2fd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search_icon_image {
+    width: 100%;
+}
+
+.error_message {
+    text-align: center;
+    color: red;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+#details_card_view {
+    display: none;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 470px;
+    color: black;
+    margin: 20px auto 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.weather_icon {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.city_name {
+    color: rgb(147, 224, 33);
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.column_view {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.humidity_icon, .wind_icon, .air_pressure_icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind_speed, .air_pressure {
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+
+#footer {
+    margin-top: 1%;
+    text-align: center;
+}

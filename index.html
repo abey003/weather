@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/weather.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Weather</title>
+    </head>
+    <body>
+
+        <!-- WEATHER APP MAIN DIV -->
+        <section id="search_card_view">
+            <div class="logo">
+                <img width="35px" src="images/weather.ico">
+                <h1>Weather</h1> <!-- MAIN HEADING -->
+                
+            </div>
+
+            <!-- SEARCH SECTION -->
+            <div class="search">
+                <input class="search_input" type="text" placeholder="Enter city" spellcheck="false">
+                <button class="search_icon"><img class="search_icon_image" src="images/search.png"></button>
+            </div>
+            <div class="error_message">
+                <p>Invalid City name</p>
+            </div>
+        </section>
+
+        <!-- WEATHER DETAILS SECTION -->
+        <section id="details_card_view">
+            <img class="weather_icon" src="">
+            <h1><span class="temperature">0</span><sup>o</sup>c</h1>
+            <h2 class="city_name"></h2>
+            <div class="details">
+                <div class="column_view">
+                    <img class="humidity_icon" src="images/humidity.png">
+                    <p class="humidity">0 %</p>
+                </div>
+                <div class="column_view">
+                    <img class="wind_icon" src="images/wind.png">
+                    <p class="wind_speed">0 km/hr</p>
+                </div>
+                <div class="column_view">
+                    <img class="air_pressure_icon" src="images/air_pressure.png">
+                    <p class="air_pressure">0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION -->
+        <section id="footer">
+            <footer>
+                <p>Developed by Abey</p>
+                <p>Copyright &#169; 2024 Weather. All Rights Reserved.</p>
+            </footer>
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
